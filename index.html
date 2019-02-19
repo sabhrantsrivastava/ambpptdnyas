@@ -1,1 +1,166 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>A.M.B.P.P.T.D. Nyas - Home</title>
+  <link rel="icon" href="images/favicon.ico" sizes="16x16 32x32" type="image/png">
+  <link rel="stylesheet" type="text/css" href="vendor/semantic-ui/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="vendor/semantic-ui/semantic.min.js"></script>
+  <script>
+    $(document)
+      .ready(function() {
+  
+        // fix menu when passed
+        $('.masthead')
+          .visibility({
+            once: false,
+            onBottomPassed: function() {
+              $('.fixed.menu').transition('fade in');
+            },
+            onBottomPassedReverse: function() {
+              $('.fixed.menu').transition('fade out');
+            }
+          })
+        ;
+  
+        // create sidebar and attach to menu open
+        $('.ui.sidebar')
+          .sidebar('attach events', '.toc.item')
+        ;
+  
+      })
+    ;
+    </script>
+</head>
+<body>
+    <!-- Following Menu -->
+    <div class="ui large top fixed hidden menu">
+        <div class="ui container">
+        <div class="header item">Avatar Mehere Baba P.P.T.D. Nyas</div>
+        <div class="right menu">
+            <a class="active item">Home</a>
+            <a class="item">Meher Baba</a>
+            <a class="item">Activities</a>
+            <a class="item">The Trust</a>
+            <a class="item">Service</a>
+        </div>
+        </div>
+    </div>
+  
+  <!-- Sidebar Menu -->
+  <div class="ui vertical inverted sidebar right menu">
+    <a class="active item">Home</a>
+    <a class="item">Work</a>
+    <a class="item">Meher Baba</a>
+    <a class="item">Activities</a>
+    <a class="item">The Trust</a>
+    <a class="item">Service</a>
+  </div>
+
+  <!-- Page Contents -->
+<div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+      
+          <div class="ui container">
+            <div class="ui text container">
+                <h2 class="ui inverted header">
+                    Avatar Meher Baba
+                    <div class="sub header">Punyarth Prayojan Tatha Dharmdaay Nyas</div>
+                </h2>
+            </div>
+            <div class="ui inverted divider"></div>
+            <div class="ui large secondary inverted pointing menu">
+              <div class="right item">
+              <a class="toc item">
+                <i class="sidebar icon"></i>
+              </a>
+              <a class="active item">Home</a>
+              <a class="item">Meher Baba</a>
+              <a class="item">Activities</a>
+              <a class="item">The Trust</a>
+              <a class="item">Service</a>
+              </div>
+            </div>
+          </div>
+          <img class="ui centered large image" src="images/meher1.jpg" />
+          <div class="ui text container">
+                <p style="font-size: 1em; text-align: justify">Meher Baba devoted his life to awakening humanity to the reality of Divine Love. He declared himself to be The Ancient One and God to be the real Self within everyone. His Universal Message begins with the words </p>
+                <p style="font-size: 1.5em;">&#8764;&nbsp;<b>"I have come not to teach but to awaken</b>."</p>
+          </div>
+      
+        </div>
+      
+        <div class="ui vertical stripe segment">
+          <div class="ui middle aligned stackable grid container">
+            <div class="row">
+              <div class="eight wide column">
+                <h3 class="ui header">50th Amartithi at Meherabad Hill 2019</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LL4eTWQCJkY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+              <div class="eight wide column">
+                    <h3 class="ui header">50th Amartithi at Meherabad Hill 2019</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mxm1i1kdFkg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+          </div>
+        </div>
+      
+      
+        <div class="ui vertical stripe quote segment">
+            <div class="ui container">
+          <div class="ui equal width stackable internally celled grid">
+            <div class="center aligned row">
+              <div class="column">
+                    <h3>The Universal Message</h3>
+                    <p>I have come not to teach but to awaken.<br>Understand therefore that I lay down no precepts.</p>
+                    <p><i>Meher Baba</i></p>
+              </div>
+              <div class="column">
+                <h3>God Is</h3>
+                <p>God is everywhere and does everything.<br>God is within us and knows everything.<br>God is without us and sees everything.
+                <br>God is beyond us and IS everything.
+                <br>God alone IS.</p>
+                <p><i>Excerpted from God Speaks by Meher Baba, p. 298 Copyright 1973 Sufism Reoriented, Inc. Used by permission.</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      
+      
+        <div class="ui inverted vertical footer segment">
+          <div class="ui container">
+            <div class="ui stackable inverted equal height stackable grid">
+              <div class="three wide column">
+                <h4 class="ui inverted header">About</h4>
+                <div class="ui inverted link list">
+                  <a href="#" class="item">Sitemap</a>
+                  <a href="#" class="item">Contact Us</a>
+                  <a href="#" class="item">Religious Ceremonies</a>
+                </div>
+              </div>
+              <div class="three wide column">
+                <h4 class="ui inverted header">Services</h4>
+                <div class="ui inverted link list">
+                  <a href="#" class="item">Mastery In Servitude</a>
+                  <a href="#" class="item">Medical</a>
+                  <a href="#" class="item">Educational</a>
+                </div>
+              </div>
+              <div class="right aligned ten wide column">
+                <h4 class="ui inverted header">Copyright & Credits</h4>
+                <p>&copy; 2019 A.M.B.P.P.T.D. Nyas.<br>All rights reserved.</p>
+                <p>Developed & Maintained by:<br>Sabhrant Srivastava</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+</body>
